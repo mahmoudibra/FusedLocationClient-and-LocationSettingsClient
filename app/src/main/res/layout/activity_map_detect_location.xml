@@ -4,33 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <Button
+        android:id="@+id/btn_location_descritpion"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="#fff"
+        android:textSize="12sp" />
 
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/map"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textColor="#fff" />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff" />
 
-        <Button
-            android:id="@+id/btn_location_descritpion"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/colorPrimaryDark"
-            android:gravity="center"
-            android:lines="1"
-            android:textColor="#fff"
-            android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/btn_finish_location"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:background="@color/colorPrimaryDark"
-            android:text="Finish Detect Location"
-            android:textColor="#fff" />
-    </RelativeLayout>
 </LinearLayout>
