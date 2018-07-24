@@ -109,18 +109,4 @@ public class MainActivity extends AppCompatActivity implements LocationProvider.
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
         mLocationProvider.onRequestPermissionsResult(permsRequestCode, permissions, grantResults);
     }
-
-    // set result to previous activity
-    @OnClick(R.id.btn_finish_location)
-    void onFinishDetectLocationClicked() {
-//        if (mLang != null && mLat != null && mResult != null) {
-//            Intent intentData = new Intent();
-//            intentData.putExtra(Constant.LocationConstant.LOCATION, mResult);
-//            intentData.putExtra(Constant.LocationConstant.LAT, mLat);
-//            intentData.putExtra(Constant.LocationConstant.LNG, mLang);
-//            setResult(RESULT_OK, intentData);
-//            finish();
-//        }
-    }
-
 }
