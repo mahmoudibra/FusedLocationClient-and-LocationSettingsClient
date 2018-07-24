@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MapWithLocation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="cancel">cancel</string>
+    <string name="dialog_continue">confirm</string>
+    <string name="gps_detecting">GPS</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="my_location">My Location</string>
+</resources>
